@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ChromeSuite]">
+  <test name="TestMainPage(failed)">
+    <classes>
+      <class name="BNZTesnNGPak.BNZTestNGs">
+        <methods>
+          <include name="testMainPage"/>
+        </methods>
+      </class> <!-- BNZTesnNGPak.BNZTestNGs -->
+    </classes>
+  </test> <!-- TestMainPage(failed) -->
+</suite> <!-- Failed suite [ChromeSuite] -->

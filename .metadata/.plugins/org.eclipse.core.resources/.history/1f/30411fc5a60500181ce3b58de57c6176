@@ -1,0 +1,19 @@
+package BNZCommonMethodsPak;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BNZCalcCommonMethodsC {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		WebDriver driver;
+		System.setProperty("webdriver.chrome.driver", "D:\\selenium-java-3.5.0\\ChromeDriver\\chromedriver_win32\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("www.google.com");
+		driver.manage().window().maximize();
+
+	}
+
+}
